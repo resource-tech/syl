@@ -1,0 +1,89 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://sunyanling123.github.io/syl/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "syl",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "people and trees",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://8b4fde89-9baf-4eb5-90e6-b4988d19dae5",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://67e05e7d-7266-4c94-a701-641f07e9d82d",
+      "@type" : "sc:Canvas",
+      "label" : "syl_canvas1",
+      "height" : 815,
+      "width" : 1000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://bf6cf909-3f91-48e9-b237-17ccbb618ce0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://sunyanling123.github.io/syl/images/syl_iiif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://sunyanling123.github.io/syl/images/syl_iiif",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 815,
+          "width" : 1000
+        },
+        "on" : "http://67e05e7d-7266-4c94-a701-641f07e9d82d"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://f9ac899d-ca1a-4da0-ab98-050c12eb90ae",
+      "@type" : "sc:Canvas",
+      "label" : "syl_canvas2",
+      "height" : 815,
+      "width" : 1000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3d5850f2-6ca2-45c8-9030-c4c57bd24472",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://sunyanling123.github.io/syl/images/syl_iiif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://sunyanling123.github.io/syl/images/syl_iiif",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 815,
+          "width" : 1000
+        },
+        "on" : "http://f9ac899d-ca1a-4da0-ab98-050c12eb90ae"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/r0",
+    "@type" : "sc:Range",
+    "label" : "Table of Contents",
+    "members" : [ {
+      "@id" : "http://example.org/iiif/book1/range/r1",
+      "@type" : "sc:Range",
+      "label" : "Introduction"
+    } ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/r1",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : "http://f9ac899d-ca1a-4da0-ab98-050c12eb90ae"
+  } ]
+}
