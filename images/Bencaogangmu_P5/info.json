@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 60,
+    "height" : 23
+  }, {
+    "width" : 119,
+    "height" : 46
+  }, {
+    "width" : 238,
+    "height" : 92
+  }, {
+    "width" : 476,
+    "height" : 184
+  }, {
+    "width" : 951,
+    "height" : 368
+  }, {
+    "width" : 1902,
+    "height" : 735
+  } ],
+  "profile" : "level0",
+  "width" : 1902,
+  "id" : "https://sunyanling123.github.io/syl/images/Bencaogangmu_P5",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 735
+}
