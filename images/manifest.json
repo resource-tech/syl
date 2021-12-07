@@ -6,6 +6,64 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 1902,
+    "id" : "https://sunyanling123.github.io/syl/images/Bencaogangmu_P5/canvas/",
+    "label" : {
+      "none" : [ "Bencaogangmu_P5" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://sunyanling123.github.io/syl/images/Bencaogangmu_P5/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://sunyanling123.github.io/syl/images/Bencaogangmu_P5/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 60,
+              "height" : 23
+            }, {
+              "width" : 119,
+              "height" : 46
+            }, {
+              "width" : 238,
+              "height" : 92
+            }, {
+              "width" : 476,
+              "height" : 184
+            }, {
+              "width" : 951,
+              "height" : 368
+            }, {
+              "width" : 1902,
+              "height" : 735
+            } ],
+            "profile" : "level0",
+            "width" : 1902,
+            "id" : "https://sunyanling123.github.io/syl/images/Bencaogangmu_P5",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 735
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1902,
+          "id" : "https://sunyanling123.github.io/syl/images/Bencaogangmu_P5/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 735
+        },
+        "target" : "https://sunyanling123.github.io/syl/images/Bencaogangmu_P5/canvas/"
+      } ]
+    } ],
+    "height" : 735
+  }, {
     "width" : 1000,
     "id" : "https://sunyanling123.github.io/syl/images/syl_iiif/canvas/",
     "label" : {
